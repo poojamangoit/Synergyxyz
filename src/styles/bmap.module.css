@@ -1,0 +1,161 @@
+.bannerContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: var(--container);
+  padding: 40px 60px 0 60px;
+  margin: 0 auto 100px;
+}
+
+.bannerContent {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.primaryTitle {
+  color: var(--textBlue);
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.blackTitle {
+  color: var(--textDark);
+  font-size: 56px;
+  line-height: 65.74px;
+  font-weight: 300;
+  width: 100%;
+  max-width: 628px;
+}
+
+.primarySubtitle {
+  color: var(--textBlue);
+  font-size: 48px;
+  font-weight: 300px;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  color: var(--textGrey);
+  line-height: 1.5;
+  font-size: 18px;
+  width: 100%;
+  max-width: 560px;
+  text-align: justify;
+}
+
+.bannerGif {
+  width: 100%;
+}
+
+.bannerGif img {
+  width: 100%;
+  height: auto;
+}
+
+/* card section */
+
+.advantage_section {
+  max-width: 1320px;
+  margin: auto;
+  padding: 30px 60px;
+}
+.advantage_name {
+  color: var(--textBlue);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.advantage_title {
+  color: var(--textDark);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 65.74px;
+}
+
+.card_grid {
+  max-width: 1320px;
+  margin: auto;
+  /* padding: 16px 60px; */
+  padding: 16px 60px 86px 60px;
+}
+
+/* our solution section */
+
+.OS_container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 16px 60px;
+}
+
+@media (max-width: 1440px) {
+  .bannerGif img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannerContainer {
+    flex-direction: column;
+    padding: 0 30px;
+    margin-bottom: 20px;
+  }
+
+  .bannerGif img {
+    max-width: 100%;
+
+    margin: 0 auto 0;
+  }
+  .bannerContent {
+    margin-bottom: 0;
+  }
+
+  .blackTitle {
+    font-size: 36px;
+    line-height: 42.26px;
+    font-weight: 300;
+    margin-bottom: 8px;
+  }
+
+  .bannerGif {
+    margin: 30px 0px;
+  }
+
+  .primarySubtitle {
+    font-size: 24px;
+    line-height: 28.18px;
+    font-weight: 300;
+  }
+
+  .subtext {
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 300;
+  }
+
+  /* OS_section */
+
+  .OS_container {
+    padding: 16px 30px;
+  }
+
+  /* card section */
+
+  .card_grid {
+    padding: 16px 30px;
+  }
+
+  .advantage_section {
+    padding: 40px 30px 0 30px;
+  }
+
+  .advantage_title {
+    font-size: 36px;
+    line-height: 42.26px;
+  }
+
+  .advantage_name {
+    margin-bottom: 15px;
+  }
+}

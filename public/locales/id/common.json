@@ -1,0 +1,142 @@
+{
+  "contact": {
+    "name": "Nama",
+    "namePlaceholder": "Nama di sini",
+    "email": "Alamat email",
+    "emailPlaceholder": "Masukkan alamat",
+    "phone": "Nomor telepon",
+    "phonePlaceholder": "Nomor telepon",
+    "budget": "Anggaran",
+    "dropdownLabel": "-memilih-",
+    "typeOfService": "Jenis Layanan",
+    "objective": "Tujuan",
+    "message1": "Apakah Anda memiliki pertanyaan spesifik atau memerlukan rincian lebih lanjut?",
+    "message2": "Gunakan formulir di bawah ini untuk mengirimkan pesan kepada kami, dan anggota tim kami akan segera menghubungi Anda.",
+    "messagePlaceholder": "Kirimkan Kami Pesan...",
+    "conditionText1": "Saya setuju dengan pengumpulan dan penggunaan data pribadi saya sesuai dengan",
+    "conditionText2": "dan situs web",
+    "privacy": "PDPA",
+    "terms": "Ketentuan Penggunaan.",
+    "submit": "Mulai proyek",
+    "seeAll": "Lihat semua"
+  },
+  "services": {
+    "serviceOption": [
+      {
+        "key": "Branding",
+        "value": "Branding"
+      },
+      {
+        "key": "Konten Kreatif",
+        "value": "Creative Content"
+      },
+      {
+        "key": "Strategi Konten",
+        "value": "Content Strategy"
+      },
+      {
+        "key": "Layanan Media",
+        "value": "Media Services"
+      },
+      {
+        "key": "Perdagangan & eCommerce",
+        "value": "Commerce & eCommerce"
+      },
+      {
+        "key": "Manajemen Hubungan Pelanggan",
+        "value": "Customer Relationship Management"
+      },
+      {
+        "key": "Kemitraan",
+        "value": "Partnership"
+      },
+      {
+        "key": "Acara & Aktivasi",
+        "value": "Events & Activations"
+      },
+      {
+        "key": "Analisis Data",
+        "value": "Data Analytics"
+      },
+      {
+        "key": "Teknologi",
+        "value": "Tech"
+      }
+    ]
+  },
+  "objective": {
+    "ObjectiveOption": [
+      {
+        "key": "Kesadaran",
+        "value": "Awareness"
+      },
+      {
+        "key": "Pertimbangan",
+        "value": "Consideration"
+      },
+      {
+        "key": "Keterlibatan",
+        "value": "Engagement"
+      },
+      {
+        "key": "Konversi",
+        "value": "Conversion"
+      },
+      {
+        "key": "Loyalitas",
+        "value": "Loyalty"
+      },
+      {
+        "key": "Advokasi",
+        "value": "Advocacy"
+      }
+    ]
+  },
+  "budget": {
+    "BudgetOption": [
+      {
+        "key": "< RM5,000 hingga RM10,000",
+        "value": "< RM5,000 to RM10,000"
+      },
+      {
+        "key": "RM 10.000 hingga RM 15.000",
+        "value": "RM 10,000 to RM 15,000"
+      },
+      {
+        "key": "RM 15.000 hingga RM 20.000",
+        "value": "RM 15,000 to RM 20,000"
+      },
+      {
+        "key": "> RM 20.000",
+        "value": "> RM 20,000"
+      }
+    ]
+  },
+  "validation": {
+    "emailRequired": "Email wajib diisi",
+    "emailInvalid": "Email harus berupa email yang valid",
+    "nameRequired": "Nama wajib diisi",
+    "nameInvalid": "Silakan masukkan nama yang valid",
+    "phoneRequired": "Telepon wajib diisi",
+    "phoneInvalid": "Silakan masukkan nomor telepon yang valid",
+    "budgetRequired": "Anggaran wajib diisi",
+    "serviceRequired": "Jenis Layanan wajib diisi",
+    "objectiveRequired": "Tujuan wajib diisi",
+    "messageRequired": "Pesan wajib diisi",
+    "termsRequired": "Anda harus menerima syarat dan ketentuan"
+  },
+  "homeService": {
+    "services": [
+      "Branding",
+      "Konten Kreatif",
+      "Layanan Media",
+      "Strategi Konten",
+      "Perdagangan & E-dagang",
+      "Manajemen Hubungan Pelanggan (CRM)",
+      "Kemitraan",
+      "Acara & Aktivasi",
+      "Analisis Data",
+      "Teknologi"
+    ]
+  }
+}

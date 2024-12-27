@@ -1,0 +1,253 @@
+/* Banner section */
+.bannerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: url(/assets/images/Gradient_pack.png) no-repeat 0 0 / cover; */
+  padding-bottom: 77px;
+}
+
+.leftSide {
+  padding: 0 3rem;
+  width: 100%;
+  max-width: 35%;
+  line-height: 65.74px;
+}
+.title {
+  font-size: 14px;
+  color: var(--textBlue);
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 56px;
+  color: var(--textDark);
+  font-weight: 300;
+  line-height: 65.74px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: var(--textGrey);
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.rightSide {
+  position: relative;
+  width: 100%;
+  max-width: 65%;
+  top: -110px;
+}
+
+.image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/* Main section */
+
+.card_grid {
+  max-width: 1320px;
+  margin: auto;
+  position: relative;
+  padding: 0px 0px;
+  bottom: 0px;
+  margin-top: 0px;
+}
+
+.grid_main_section {
+  margin-top: -110px;
+  background: url(/assets/images/body-bg.webp) no-repeat 0 0;
+  margin-bottom: -110px;
+}
+
+/* our solution section */
+
+.OS_container {
+  max-width: 1320px;
+  margin: auto;
+  position: relative;
+  padding: 0px 0px;
+  bottom: 0px;
+  margin-top: 47px;
+}
+
+/* get_started section */
+
+.get_started {
+  max-width: 1320px;
+  margin: auto;
+  position: relative;
+  padding: 0px 0px;
+  bottom: 0px;
+  margin-top: 58px;
+  z-index: 10;
+}
+
+.get_started_title {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 65.74px;
+}
+
+.get_started_button_container {
+  margin-top: 29px;
+}
+
+.images_box > img {
+  border-radius: 0 0 0 20px;
+}
+
+@media (max-width: 1500px) {
+  .rightSide {
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    top: -65px;
+  }
+
+  .grid_main_section {
+    margin-top: -77px;
+    background: url(/assets/images/body-bg.webp) no-repeat 0 0;
+    margin-bottom: -77px;
+  }
+
+  .leftSide {
+    padding: 0 55px;
+    width: 100%;
+    max-width: 40%;
+    line-height: 65.74px;
+  }
+
+  .description {
+    font-size: 15px;
+    color: var(--textGrey);
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    font-size: 40px;
+    color: var(--textDark);
+    font-weight: 300;
+    line-height: 52.74px;
+    margin-bottom: 10px;
+  }
+
+  .main-div {
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 1360px) {
+  .grid_main_section {
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannerContainer {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .get_started {
+    margin-top: 0px;
+  }
+
+  .card_title_blue {
+    margin-bottom: 16px;
+  }
+
+  .card_content_full {
+    padding: 48px 32px;
+  }
+
+  .grid_main_section {
+    padding: 0 0px;
+  }
+
+  .fixed.body-bg-fixed {
+    height: 100%;
+  }
+
+  .images_box img {
+    margin-top: -5px;
+  }
+  .images_box {
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .leftSide {
+    padding: 0 2rem;
+    width: 100%;
+    max-width: 100%;
+    line-height: 65.74px;
+  }
+
+  .rightSide {
+    max-width: 100%;
+    padding-left: 30px;
+    margin-top: 40px;
+    top: 0;
+  }
+
+  .card_grid {
+    padding: 16px 30px 0;
+  }
+
+  .subtitle {
+    font-size: 36px;
+    line-height: 42.26px;
+  }
+
+  .description {
+    font-size: 16px;
+    color: var(--darkGrey);
+    line-height: 18.78px;
+    font-weight: 300;
+  }
+
+  .OS_container {
+    padding: 16px 30px;
+  }
+
+  .get_started {
+    width: 100%;
+    max-width: 338px;
+    /* padding: 16px 30px; */
+  }
+
+  .get_started_title {
+    font-size: 36px;
+    line-height: 42.26px;
+  }
+
+  .bannerContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: none;
+    min-height: auto;
+  }
+
+  .grid_main_section {
+    margin-top: 40px;
+    background: url(/assets/images/body-bg.webp) no-repeat 0 0;
+    margin-bottom: -0px;
+  }
+
+  .fixed.body-bg-fixed {
+    height: 100vh;
+  }
+
+  .hero-section {
+    margin-top: 40px;
+  }
+}
