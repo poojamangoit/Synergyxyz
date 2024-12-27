@@ -1,0 +1,102 @@
+/* .primary_icon_button_applied:after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: #2e3192 url("/assets/images/primary-button-arrow.svg") no-repeat
+    center;
+  position: absolute;
+  top: 0;
+  right: -37px;
+  border-radius: 100%;
+} */
+
+.primary_icon_button_applied {
+  margin-right: 35px;
+}
+
+.primary_icon_button_applied > div:last-child {
+  position: absolute;
+  right: -35px;
+}
+
+.primary_icon_button_applied:hover > div:last-child {
+  right: -39px;
+}
+
+.primary_icon_button_applied:hover > div:first-child {
+  background: #6e6dbb;
+}
+
+.primary_icon_button_applied:hover div svg path:first-child {
+  fill: #6e6dbb;
+}
+
+/* .primary_icon_button_applied:hover:after {
+  background: #6e6dbb url("/assets/images/primary-button-arrow.svg") no-repeat
+    center;
+} */
+
+button.primary-button {
+  display: flex;
+  flex-wrap: nowrap;
+  background: none !important;
+}
+
+.primary-button-inner {
+  background: red;
+}
+
+/* .secondary_icon_button_applied:after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: #ffffff url("/assets/images/secondary-button-arrow.svg") no-repeat
+    center;
+  position: absolute;
+  top: 0;
+  right: -37px;
+  border-radius: 100%;
+} */
+
+/* .secondary_icon_button_applied:hover {
+  background: #ffffff;
+} */
+
+@media (max-width: 767px) {
+  .secondary_button_container {
+    display: flex;
+    justify-content: center;
+  }
+} 
+
+.secondary_icon_button_applied div:last-child {
+  position: absolute;
+  right: -35px;
+}
+
+.secondary_icon_button_applied:hover div:first-child {
+  background: #d5d4f9;
+}
+
+.secondary_icon_button_applied:hover div svg path:first-child {
+  fill: #d5d4f9;
+}
+
+.secondary_icon_button_applied:hover div:last-child {
+  right: -39px;
+}
+
+.secondary_icon_button_applied {
+  display: flex;
+}
+
+.cta-container .secondary_icon_button_applied > div:first-child {
+  width: 136px;
+}
+
+.secondary_icon_button_applied:hover:after {
+  background: #d5d4f9 url("/assets/images/secondary-button-arrow.svg") no-repeat
+    center;
+}

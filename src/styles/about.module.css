@@ -1,0 +1,114 @@
+/* Banner CSS */
+.banner_container {
+  margin: auto;
+  width: 100%;
+  max-width: 1320px;
+  padding: 0px 60px;
+}
+
+/* MidSection CSS */
+.mid_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ms_title_container {
+  width: 100%;
+}
+
+.mid_name {
+  color: var(--textBlue);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.mid_title {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 75.14px;
+  color: #1d1e1c;
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.card_container {
+  max-width: 992px;
+  margin: auto;
+}
+
+.aboutus-card > div {
+  background: linear-gradient(
+    326.32deg,
+    rgba(228, 218, 218, 0.47) -39.24%,
+    rgba(212, 211, 211, 0) 123.03%
+  );
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    150.38deg,
+    rgba(255, 255, 255, 0.64) 26.16%,
+    rgba(255, 255, 255, 0.24) 81.87%
+  );
+}
+/* Card CSS */
+
+
+.banner_container > div:first-child img{
+  border-radius: 25px;
+}
+
+
+@media (max-width: 767px) {
+  .banner_container {
+    padding: 0px 30px;
+    height: 100vh;
+  }
+
+  .aboutus_cardbox {
+    background: #f4f4f4 url(/assets/images/body-bg.webp) no-repeat 0 0;
+    padding-top: 55px;
+  }
+
+  .banner_container > div:first-child {
+ 
+    height: auto;
+    overflow: hidden;
+    margin-top: 0;
+    position: relative;
+    top: 30px;
+    border-radius: 25px;
+  }
+
+  .banner_container > div:first-child img {
+    height: 100%;
+    max-width: none;
+    width: 100%;
+  }
+
+  .mid_title {
+    font-size: 48px;
+    line-height: 56.35px;
+  }
+
+  .card_container {
+    max-width: 351px;
+
+    margin: auto;
+  }
+  .mid_section {
+    padding-top: 28px;
+  }
+
+  .aboutus-card > div h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    color: #131313;
+    line-height: 42px;
+  }
+}

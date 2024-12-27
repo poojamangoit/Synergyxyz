@@ -1,0 +1,142 @@
+{
+  "contact": {
+    "name": "Name",
+    "namePlaceholder": "Name here",
+    "email": "Email address",
+    "emailPlaceholder": "Enter address",
+    "phone": "Phone number",
+    "phonePlaceholder": "Phone number",
+    "budget": "Budget",
+    "dropdownLabel": "-choose-",
+    "typeOfService": "Type of Service",
+    "objective": "Objective",
+    "message1": "Do you have a specific question or require more details?",
+    "message2": "Use the form below to send us a message, and a member of our team will get back to you as soon as possible.",
+    "messagePlaceholder": "Send Us a Message...",
+    "conditionText1": "I agree to the collection and use of my personal data in accordance with the",
+    "conditionText2": "and the website's",
+    "privacy": "PDPA",
+    "terms": "Terms of Use.",
+    "submit": "Start a project",
+    "seeAll": "See all"
+  },
+  "services": {
+    "serviceOption": [
+      {
+        "key": "Branding",
+        "value": "Branding"
+      },
+      {
+        "key": "Creative Content",
+        "value": "Creative Content"
+      },
+      {
+        "key": "Content Strategy",
+        "value": "Content Strategy"
+      },
+      {
+        "key": "Media Services",
+        "value": "Media Services"
+      },
+      {
+        "key": "Commerce & eCommerce",
+        "value": "Commerce & eCommerce"
+      },
+      {
+        "key": "Customer Relationship Management",
+        "value": "Customer Relationship Management"
+      },
+      {
+        "key": "Partnership",
+        "value": "Partnership"
+      },
+      {
+        "key": "Events & Activations",
+        "value": "Events & Activations"
+      },
+      {
+        "key": "Data Analytics",
+        "value": "Data Analytics"
+      },
+      {
+        "key": "Tech",
+        "value": "Tech"
+      }
+    ]
+  },
+  "objective": {
+    "ObjectiveOption": [
+      {
+        "key": "Awareness",
+        "value": "Awareness"
+      },
+      {
+        "key": "Consideration",
+        "value": "Consideration"
+      },
+      {
+        "key": "Engagement",
+        "value": "Engagement"
+      },
+      {
+        "key": "Conversion",
+        "value": "Conversion"
+      },
+      {
+        "key": "Loyalty",
+        "value": "Loyalty"
+      },
+      {
+        "key": "Advocacy",
+        "value": "Advocacy"
+      }
+    ]
+  },
+  "budget": {
+    "BudgetOption": [
+      {
+        "key": "< RM5,000 to RM10,000",
+        "value": "< RM5,000 to RM10,000"
+      },
+      {
+        "key": "RM 10,000 to RM 15,000",
+        "value": "RM 10,000 to RM 15,000"
+      },
+      {
+        "key": "RM 15,000 to RM 20,000",
+        "value": "RM 15,000 to RM 20,000"
+      },
+      {
+        "key": "> RM 20,000",
+        "value": "> RM 20,000"
+      }
+    ]
+  },
+  "validation": {
+    "emailRequired": "Email is a required field",
+    "emailInvalid": "Email must be a valid email",
+    "nameRequired": "Name is a required field",
+    "nameInvalid": "Please enter a valid name",
+    "phoneRequired": "Phone is a required field",
+    "phoneInvalid": "Please enter a valid telephone number",
+    "budgetRequired": "Budget is a required field",
+    "serviceRequired": "Type of Service is a required field",
+    "objectiveRequired": "Objective is a required field",
+    "messageRequired": "Message is a required field",
+    "termsRequired": "You must accept the terms and conditions"
+  },
+  "homeService": {
+    "services": [
+      "Branding",
+      "Creative Content",
+      "Media Services",
+      "Content Strategy",
+      "Commerce & eCommerce",
+      "Customer Relationship Management (CRM)",
+      "Partnership",
+      "Events & Activations",
+      "Data Analytics",
+      "Tech"
+    ]
+  }
+}

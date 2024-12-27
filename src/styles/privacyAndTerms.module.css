@@ -1,0 +1,99 @@
+.privacy_policy_container {
+  padding: 0 60px;
+  max-width: 1320px;
+  margin: 100px auto 0 auto;
+}
+
+.name {
+  color: var(--textBlue);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: var(--textDark);
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 65.74px;
+  margin-bottom: 10px;
+}
+
+.content {
+  color: var(--darkGrey);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.background {
+  background-color: none;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 36px;
+    line-height: 42.26px;
+  }
+
+  .content {
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 300;
+  }
+
+  .privacy_policy_container {
+    padding: 0 30px;
+    margin: auto;
+  }
+}
+
+/* Terms And Services */
+
+/* Styles for ordered list */
+.orderedList {
+  list-style-type: decimal; /* Default numbering style */
+  margin: 0;
+  padding: 0;
+}
+
+.unorderedList {
+  list-style-type: disc; /* Default bullet style */
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  margin: 0.5em 0;
+}
+
+/* Add additional styles for links, headings, and paragraphs as needed */
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* .heading-1 {
+  font-size: 2em;
+}
+
+.heading-2 {
+  font-size: 1.5em;
+}
+
+.heading-3 {
+  font-size: 1.17em;
+}
+
+.heading-4 {
+  font-size: 1em;
+}
+
+.heading-5 {
+  font-size: 0.83em;
+}
+
+.heading-6 {
+  font-size: 0.67em;
+} */
